@@ -2,15 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f5726169-4d47-4bf5-a6ee-8e3c2ce066c0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/example/lib/custom_calendar_header.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Dart_SDK.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Dart_SDK.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/lib/main.dart" beforeDir="false" afterPath="$PROJECT_DIR$/example/lib/main.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/example/pubspec.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/src/calendar.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/src/calendar.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/src/calendar_controller.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/src/calendar_controller.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pubspec.lock" beforeDir="false" afterPath="$PROJECT_DIR$/pubspec.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/table_calendar.iml" beforeDir="false" afterPath="$PROJECT_DIR$/table_calendar.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,7 +67,19 @@
       <option name="presentableId" value="Default" />
       <updated>1602576983084</updated>
     </task>
+    <task id="LOCAL-00001" summary="implement ability to show/hide weekend days">
+      <created>1602591428764</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1602591428764</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="implement ability to show/hide weekend days" />
+    <option name="LAST_COMMIT_MESSAGE" value="implement ability to show/hide weekend days" />
   </component>
   <component name="WindowStateProjectService">
     <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1602578058613">
@@ -85,6 +90,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="689" y="310" key="#com.intellij.ide.util.TreeFileChooserDialog/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1602578041989" />
+    <state x="573" y="131" key="CommitChangelistDialog2" timestamp="1602591428002">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="573" y="131" key="CommitChangelistDialog2/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1602591428002" />
     <state x="184" y="86" key="DiffContextDialog" timestamp="1602582883871">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -93,26 +102,26 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1602578049934" />
-    <state width="1860" height="428" key="GridCell.Tab.0.bottom" timestamp="1602591310066">
+    <state width="1860" height="113" key="GridCell.Tab.0.bottom" timestamp="1602593403188">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1860" height="428" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1602591310066" />
-    <state width="1860" height="428" key="GridCell.Tab.0.center" timestamp="1602591310066">
+    <state width="1860" height="113" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1602593403188" />
+    <state width="1860" height="113" key="GridCell.Tab.0.center" timestamp="1602593403188">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1860" height="428" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1602591310066" />
-    <state width="1860" height="428" key="GridCell.Tab.0.left" timestamp="1602591310065">
+    <state width="1860" height="113" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1602593403188" />
+    <state width="1860" height="113" key="GridCell.Tab.0.left" timestamp="1602593403188">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1860" height="428" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1602591310065" />
-    <state width="1860" height="428" key="GridCell.Tab.0.right" timestamp="1602591310066">
+    <state width="1860" height="113" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1602593403188" />
+    <state width="1860" height="113" key="GridCell.Tab.0.right" timestamp="1602593403188">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1860" height="428" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1602591310066" />
-    <state x="688" y="248" key="RollbackChangesDialog" timestamp="1602582886787">
+    <state width="1860" height="113" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1602593403188" />
+    <state x="688" y="248" key="RollbackChangesDialog" timestamp="1602593828940">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="688" y="248" key="RollbackChangesDialog/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1602582886787" />
+    <state x="688" y="248" key="RollbackChangesDialog/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1602593828940" />
     <state x="461" y="163" key="SettingsEditor" timestamp="1602578055814">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -121,9 +130,13 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="681" y="265" width="540" height="540" key="StructurePopup/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1602580271668" />
-    <state x="623" y="229" width="672" height="678" key="search.everywhere.popup" timestamp="1602586921089">
+    <state x="552" y="234" key="Vcs.Push.Dialog.v2" timestamp="1602591430309">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="623" y="229" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1602586921089" />
+    <state x="552" y="234" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1602591430309" />
+    <state x="623" y="229" width="672" height="678" key="search.everywhere.popup" timestamp="1602592987974">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="229" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1602592987974" />
   </component>
 </project>

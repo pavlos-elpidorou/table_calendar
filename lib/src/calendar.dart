@@ -221,13 +221,6 @@ class TableCalendar extends StatefulWidget {
             ? weekendDays.every(
                 (day) => day >= DateTime.monday && day <= DateTime.sunday)
             : true),
-
-  ///when exclude weekends is true set a row height
-  /// to prevent overflowing
-        assert(
-        (excludeWeekends == true && rowHeight != null) ||
-            (excludeWeekends == false && rowHeight == null),
-        true),
         super(key: key);
 
   @override
